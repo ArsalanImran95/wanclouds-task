@@ -38,6 +38,7 @@ func main() {
 		fmt.Println(err)
 		return
 	}
+
 	var col [4] string
 	// this section is for testing excel sheet
 	cell, _ := xlsx.GetCellValue("Sheet1", "A2")
